@@ -1,5 +1,6 @@
+import java.io.*;
 
-public class DTO {
+public class DTO implements Serializable{
 	private String name;
 	private String StdNum;
 	
